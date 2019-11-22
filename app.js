@@ -1,7 +1,7 @@
 const app = require('express')()
 
 app.get('/', (req, res) => {
-  res.send("Hello from Kabanero");
+  res.send("Hello from ICP4Apps");
 });
 
 module.exports.app = app;
