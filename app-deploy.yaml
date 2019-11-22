@@ -2,7 +2,6 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   annotations:
-    namespace: dev-cs
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T20:35:20.404230
@@ -57,6 +56,7 @@ metadata:
     image.opencontainers.org/title: nodejs-express-cs
     stack.appsody.dev/version: 0.2.8
   name: nodejs-express-cs
+  namespace: dev-cs
 spec:
   applicationImage: dev.local/nodejs-express-cs
   createKnativeService: false
