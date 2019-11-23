@@ -57,6 +57,7 @@ metadata:
     stack.appsody.dev/version: 0.2.8
   name: nodejs-express-cs
   namespace: dev-cs
+  serviceAccountName: default
 spec:
   applicationImage: dev.local/nodejs-express-cs
   createKnativeService: false
