@@ -7,16 +7,16 @@ metadata:
     build-date: 2019-10-29T20:35:20.404230
     commit.image.appsody.dev/author: Carlos Santana <csantana23@gmail.com>
     commit.image.appsody.dev/committer: Carlos Santana <csantana23@gmail.com>
-    commit.image.appsody.dev/date: Fri Nov 22 15:54:30 2019 -0500
-    commit.image.appsody.dev/message: first commit
+    commit.image.appsody.dev/date: Fri Nov 22 20:18:15 2019 -0500
+    commit.image.appsody.dev/message: fix service account
     description:
       This image contains the Kabanero development stack for the Nodejs
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2019-11-22T15:59:34-05:00"
+    image.opencontainers.org/created: "2019-11-22T22:06:07-05:00"
     image.opencontainers.org/documentation: https://github.com/mooc-team-one/nodejs-express-cs
-    image.opencontainers.org/revision: a8af02d8d508f3ef1b8466e9e4541adc0ae96c1a-modified
+    image.opencontainers.org/revision: b072fd10615ecd8b50f2f7217a4adc6d545c67b7-modified
     image.opencontainers.org/source: https://github.com/mooc-team-one/nodejs-express-cs/tree/master
     image.opencontainers.org/url: https://github.com/mooc-team-one/nodejs-express-cs
     k8s.io/description:
@@ -58,7 +58,6 @@ metadata:
   name: nodejs-express-cs
   namespace: dev-cs
 spec:
-  serviceAccountName: default
   applicationImage: dev.local/nodejs-express-cs
   createKnativeService: false
   expose: true
