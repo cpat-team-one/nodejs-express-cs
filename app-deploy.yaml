@@ -59,7 +59,7 @@ metadata:
   namespace: dev-cs
 spec:
   applicationImage: dev.local/nodejs-express-cs
-  createKnativeService: true
+  createKnativeService: false
   expose: true
   livenessProbe:
     failureThreshold: 12
